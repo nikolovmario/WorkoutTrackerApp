@@ -1,0 +1,49 @@
+.workout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.workout-form .form-group {
+    margin-bottom: 20px;
+}
+
+.exercise-title {
+    margin-top: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.exercise-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.exercise-input-group .form-control {
+    margin-right: 10px;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 10px;
+}
+
+.add-exercise-btn {
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+}

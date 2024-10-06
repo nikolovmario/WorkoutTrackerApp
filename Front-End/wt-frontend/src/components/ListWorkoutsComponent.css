@@ -1,0 +1,82 @@
+.timeline {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .timeline-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e9ecef;
+  }
+  
+  .workout-card {
+    margin-left: 50px;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .timeline-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .workout-details {
+    background-color: #f8f9fa;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  /* Buttons Styling */
+  .details-btn {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .edit-btn {
+    background-color: #00c181 !important; 
+    color: white !important; 
+    border: none !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545 !important; 
+    color: white !important; 
+    border: none !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+  }
+  
+  .add-workout-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
